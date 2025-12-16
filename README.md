@@ -1,10 +1,10 @@
 📌 Project Overview
 
 SkillUp is a full-stack EdTech platform built with the MERN stack to make online learning simple, engaging, and practical. It brings students and instructors together on a single platform where learning, teaching, and progress tracking happen smoothly.
-
 Students can discover courses, learn through video content, track their progress, and share feedback. Instructors can create courses, manage content, set pricing, and understand student engagement through analytics. The platform focuses on clean design, secure authentication, and scalable cloud deployment to support real-world usage.
 
-✨ Key Features (keep as is, just slightly humanized if you want)
+✨ Key Features 
+
 👩‍🎓 Student Features
 
 Secure login and account management
