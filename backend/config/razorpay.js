@@ -1,12 +1,14 @@
 const Razorpay = require("razorpay");
 
-if (!process.env.RAZORPAY_KEY_ID) {
-  throw new Error("Razorpay key missing from environment");
-}
+console.log(
+  "Razorpay ENV →",
+  process.env.RAZORPAY_KEY_ID,
+  process.env.RAZORPAY_KEY_SECRET
+);
 
-const razorpayInstance = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET,
+const razorpay = new Razorpay({
+  key_id: String(process.env.RAZORPAY_KEY_ID),
+  key_secret: String(process.env.RAZORPAY_KEY_SECRET),
 });
 
-module.exports = razorpayInstance;
+module.exports = razorpay;
